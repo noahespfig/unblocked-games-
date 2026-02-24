@@ -3,11 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
+    <title>Galaxy Games | Unblocked Hub</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              display: ['Space Grotesk', 'sans-serif'],
+              sans: ['Inter', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap');
+    </style>
   </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="src/main.jsx"></script>
+  <body class="bg-zinc-950 text-zinc-100 antialiased overflow-x-hidden">
+    <div class="asterism-layer"></div>
+    <div class="extra-stars"></div>
+
+    <div id="app" class="min-h-screen flex flex-col">
+      <!-- Header -->
+      <header class="sticky top-0 z-40 bg-zinc-900/50 border-b border-emerald-500/20 px-6 py-4 backdrop-blur-sm shadow-[0_0_20px_rgba(16,185,129,0.1)]">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+          <div id="logo" class="flex items-center gap-2 cursor-pointer group">
+            <div class="bg-emerald-500 p-2 rounded-lg shadow-lg shadow-emerald-500/40 group-hover:scale-110 transition-transform">
+              <i data-lucide="gamepad-2" class="w-6 h-6 text-zinc-950"></i>
+            </div>
+            <h1 class="text-2xl font-bold tracking-tight font-display">
+              GALAXY<span class="text-emerald-400">GAMES</span>
+            </h1>
+          </div>
+
+          <div class="relative w-full md:w-96">
+            <i data-lucide="search" class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-500"></i>
+            <input
+              id="search-input"
+              type="text"
+              placeholder="Search games..."
+              class="w-full bg-zinc-800/50 border border-white/5 rounded-xl py-2 pl-10 pr-4 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 transition-all placeholder:text-zinc-600"
+            />
+          </div>
+        </div>
+      </header>
+
+      <main id="main-content" class="flex-1 max-w-7xl mx-auto w-full p-6">
+        <!-- Content will be injected here by script.js -->
+      </main>
+
+      <!-- Footer -->
+      <footer class="border-t border-white/5 py-8 px-6 mt-12">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-zinc-500 text-sm">
+          <p>© 2026 Galaxy Games Hub. All rights reserved.</p>
+          <div class="flex gap-6">
+            <a href="#" class="hover:text-zinc-300 transition-colors">Privacy Policy</a>
+            <a href="#" class="hover:text-zinc-300 transition-colors">Terms of Service</a>
+            <a href="#" class="hover:text-zinc-300 transition-colors">Contact</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
 
