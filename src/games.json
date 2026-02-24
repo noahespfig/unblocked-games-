@@ -1,0 +1,44 @@
+[
+  {
+    "id": "slope",
+    "title": "Slope",
+    "thumbnail": "https://picsum.photos/seed/slope/400/300",
+    "iframeUrl": "https://wayback.unblocked-games.s3.amazonaws.com/slope.html",
+    "category": "Action"
+  },
+  {
+    "id": "run-3",
+    "title": "Run 3",
+    "thumbnail": "https://picsum.photos/seed/run3/400/300",
+    "iframeUrl": "https://wayback.unblocked-games.s3.amazonaws.com/run-3.html",
+    "category": "Action"
+  },
+  {
+    "id": "tunnel-rush",
+    "title": "Tunnel Rush",
+    "thumbnail": "https://picsum.photos/seed/tunnel/400/300",
+    "iframeUrl": "https://wayback.unblocked-games.s3.amazonaws.com/tunnel-rush.html",
+    "category": "Action"
+  },
+  {
+    "id": "retro-bowl",
+    "title": "Retro Bowl",
+    "thumbnail": "https://picsum.photos/seed/retro/400/300",
+    "iframeUrl": "https://wayback.unblocked-games.s3.amazonaws.com/retro-bowl.html",
+    "category": "Sports"
+  },
+  {
+    "id": "geometry-dash",
+    "title": "Geometry Dash",
+    "thumbnail": "https://picsum.photos/seed/geometry/400/300",
+    "iframeUrl": "https://wayback.unblocked-games.s3.amazonaws.com/geometry-dash.html",
+    "category": "Platformer"
+  },
+  {
+    "id": "1v1-lol",
+    "title": "1v1.LOL",
+    "thumbnail": "https://picsum.photos/seed/1v1/400/300",
+    "iframeUrl": "https://wayback.unblocked-games.s3.amazonaws.com/1v1-lol.html",
+    "category": "Shooter"
+  }
+]
