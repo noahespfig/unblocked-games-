@@ -37,7 +37,7 @@ function renderGrid() {
   let html = '';
 
   // Hero Section
-  if (!searchQuery) {
+  if (!searchQuery && games.length > 0) {
     html += `
       <div class="relative rounded-3xl overflow-hidden bg-zinc-900 border border-emerald-500/20 p-8 md:p-12 shadow-[0_0_50px_rgba(16,185,129,0.05)] mb-8">
         <div class="absolute inset-0 bg-[url('https://picsum.photos/seed/space/1920/1080')] bg-cover bg-center opacity-20 mix-blend-overlay"></div>
@@ -56,7 +56,7 @@ function renderGrid() {
             onclick="selectGameById('${games[0].id}')"
             class="bg-emerald-500 text-zinc-950 px-8 py-3 rounded-xl font-bold hover:bg-emerald-400 transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-emerald-500/20"
           >
-            Launch Slope
+            Launch ${games[0].title}
           </button>
         </div>
       </div>

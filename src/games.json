@@ -1,44 +1,44 @@
 [
   {
-    "id": "slope",
-    "title": "Slope",
-    "thumbnail": "https://picsum.photos/seed/slope/400/300",
-    "iframeUrl": "https://wayback.unblocked-games.s3.amazonaws.com/slope.html",
-    "category": "Action"
+    "id": "penalty-challenge-multiplayer",
+    "title": "Penalty Challenge Multiplayer",
+    "thumbnail": "https://picsum.photos/seed/penalty/400/300",
+    "iframeUrl": "https://tyronegames.gitlab.io/penalty-challenge-multiplayer/",
+    "category": "Sports"
   },
   {
-    "id": "run-3",
-    "title": "Run 3",
-    "thumbnail": "https://picsum.photos/seed/run3/400/300",
-    "iframeUrl": "https://wayback.unblocked-games.s3.amazonaws.com/run-3.html",
-    "category": "Action"
+    "id": "toon-cup-2022",
+    "title": "Toon Cup 2022",
+    "thumbnail": "https://picsum.photos/seed/tooncup/400/300",
+    "iframeUrl": "https://tyronegames.gitlab.io/toon-cup-2022/",
+    "category": "Sports"
   },
   {
-    "id": "tunnel-rush",
-    "title": "Tunnel Rush",
-    "thumbnail": "https://picsum.photos/seed/tunnel/400/300",
-    "iframeUrl": "https://wayback.unblocked-games.s3.amazonaws.com/tunnel-rush.html",
-    "category": "Action"
+    "id": "basketball-stars",
+    "title": "Basketball Stars",
+    "thumbnail": "https://picsum.photos/seed/basketball/400/300",
+    "iframeUrl": "https://tyronegames.gitlab.io/basketball-stars/",
+    "category": "Sports"
+  },
+  {
+    "id": "moto-x3m",
+    "title": "Moto X3M",
+    "thumbnail": "https://picsum.photos/seed/motox3m/400/300",
+    "iframeUrl": "https://tyronegames.gitlab.io/moto-x3m/",
+    "category": "Racing"
+  },
+  {
+    "id": "basket-random",
+    "title": "Basket Random",
+    "thumbnail": "https://picsum.photos/seed/basketrandom/400/300",
+    "iframeUrl": "https://tyronegames.gitlab.io/basket-random/",
+    "category": "Sports"
   },
   {
     "id": "retro-bowl",
     "title": "Retro Bowl",
-    "thumbnail": "https://picsum.photos/seed/retro/400/300",
-    "iframeUrl": "https://wayback.unblocked-games.s3.amazonaws.com/retro-bowl.html",
+    "thumbnail": "https://picsum.photos/seed/retrobowl/400/300",
+    "iframeUrl": "https://tyronegames.gitlab.io/retro-bowl/",
     "category": "Sports"
-  },
-  {
-    "id": "geometry-dash",
-    "title": "Geometry Dash",
-    "thumbnail": "https://picsum.photos/seed/geometry/400/300",
-    "iframeUrl": "https://wayback.unblocked-games.s3.amazonaws.com/geometry-dash.html",
-    "category": "Platformer"
-  },
-  {
-    "id": "1v1-lol",
-    "title": "1v1.LOL",
-    "thumbnail": "https://picsum.photos/seed/1v1/400/300",
-    "iframeUrl": "https://wayback.unblocked-games.s3.amazonaws.com/1v1-lol.html",
-    "category": "Shooter"
   }
 ]
